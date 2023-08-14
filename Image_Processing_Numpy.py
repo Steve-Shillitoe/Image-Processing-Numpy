@@ -18,7 +18,7 @@ print(arr)
 print('The largest value = {}'.format(arr.max()))
 print('The smallest value = {}'.format(arr.min()))
 
-pic = Image.open('C:\\Computer-Vision-with-Python\\DATA\\00-puppy.jpg')
+pic = Image.open('00-puppy.jpg')
 pic_arr = np.asarray(pic)
 print(pic_arr.shape)
 plt.imshow(pic_arr)
